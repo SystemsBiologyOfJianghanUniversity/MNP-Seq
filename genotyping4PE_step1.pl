@@ -53,7 +53,7 @@ $ampliconFa="/result/pub/software/software/bin/SSR/pipeline/all776amplicon.fa" u
 $ampliconP= "/result/pub/software/software/bin/SSR/pipeline/776primer.fa" unless defined $ampliconP;
 
 
-my$overlap="$Bin/overlap_pair_trim.new";
+my$overlap="$Bin/overlap_pair_trim";
 my$stat_var="$Bin/statVariant.pl";
 my$combin="$Bin/combinVariant.pl";
 
